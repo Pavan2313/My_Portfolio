@@ -1,0 +1,308 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo"><Span style="color: red;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: 50px;font-weight: 500;">P</Span>awan</div>
+      <div>
+        <ul class="nav-links">
+          
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Expertise</a></li>
+          <li><a href="#projects">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Portfolio</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Expertise</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Services</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="Images/photo4.jpg" alt="Photo" style="border-radius: 40%;" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Pawan Panchal</h1>
+        <p class="section__text__p2">Full Stack Developer</p>
+        <div class="btn-container">
+         <a href="Images/TCS (5).pdf" download class="btn btn2"><button
+          class="btn btn-color-2">
+          Download CV
+        </button></a> 
+        </div>
+        <div id="socials-container">
+          <a href="https://www.linkedin.com/in/pavan-panchal-897680273/"><i class='fa-brands fa-linkedin' style='font-size:20px;color: #000000;' ></i></a>
+          <a href="https://github.com/Pavan2313/"><i class='fa-brands fa-github' style='font-size:20px;color: #000000' ></i></a>
+          
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="Images/photo5.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img src="Images/edu.jpg" style="border-radius: 50%;"
+                alt="Education icon"
+                class="icon"
+              /><br><br>
+              <h2>Education</h2><hr>
+              <p style="font-weight:500;"> <b>>></b> B.Sc in Computer Science, Latur<br />
+              Secure <b>8.38</b> CGPA Throuhout the Academic Year</p><hr>
+              <p style="font-weight:500;"> <b>>></b> 12th <br />
+                Secure <b>75.67</b> Percentage</p><hr>
+                <p style="font-weight:500;"> <b>>></b> 10th <br />
+                  Secure <b>74.80</b> Percentage</p>
+            </div>
+            <div class="details-container">
+             <img
+              src="Images/pro.jpg" style="border-radius: 50%;"
+              alt="Experience icon"
+              class="icon"
+            /><br><br>
+              <h2>Projects</h2><hr>
+              <p><b>>></b><b>Clinic Management system</b></p>
+              <p><b>Tools : </b>Html, Css, Javascript, C#, <br>Asp.Net, Entity Framework.</p><hr>
+              <p><b>>></b<b>Zoo Bookin System</b></p>
+              <p><b>Tools : </b>Html, Css, Javascript, Bootstrap,<br>C#, Asp.Net MVC, Entity Framwork, For Payment I Used Paypal.</p>
+            </div>
+            
+          </div>
+          <div class="text-container">
+            <p><b>
+              I am a passionate and dedicated fresher with a Bachelor's degree 
+              in Computer Science from Nanded University. Skilled in frontend and 
+              backend technologies like HTML, CSS, JavaScript, C#, ASP.NET MVC, and SQL Server, 
+              I am currently enhancing my expertise in full-stack development through a course at Fortune Cloud Technology.
+              With hands-on experience in projects like Zoo Booking System, I have developed
+               a strong understanding of coding principles, database management, and problem-solving.
+              I am eager to contribute to dynamic teams where I can apply my skills to real-world challenges 
+              and grow as a professional developer. In my free time, I enjoy playing cricket and exploring new places.
+            </b>
+             </p>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Expertises</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container" style="background-color: rgb(34, 253, 249);">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container" >
+              <article>
+                 <i class="fa-solid fa-check"></i>
+                <div>
+                  <h3>HTML</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <i class="fa-solid fa-check"></i>
+                <div>
+                  <h3>CSS</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <i class="fa-solid fa-check"></i>
+                <div>
+                  <h3>JAVASCRIPT</h3>
+                 
+                </div>
+              </article>
+              <article>
+                <i class="fa-solid fa-check"></i>
+                <div>
+                  <h3>BOOTSTRAP</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <i class="fa-solid fa-check"></i>
+                <div>
+                  <h3>JQUERY</h3>
+                 
+                </div>
+              </article>
+              
+            </div>
+          </div>
+          <div class="details-container" style="background-color: #ee98f3;">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container" >
+              <article>
+                <i class="fa-solid fa-check"></i>
+                <div>
+                  <h3>C#</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <i class="fa-solid fa-check"></i>
+                <div>
+                  <h3>ASP.NET</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <i class="fa-solid fa-check"></i>
+                <div>
+                  <h3>ASP.NET MVC</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <i class="fa-solid fa-check"></i>
+                <div>
+                  <h3>CORE MVC</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <i class="fa-solid fa-check"></i>
+                <div>
+                  <h3>ENTITY FRAMEWORK</h3>
+               </div>
+              </article>
+           </div>
+          </div>
+          <div class="details-container" style="background-color: rgb(183, 174, 79);">
+            <h2 class="experience-sub-title">Database</h2>
+            <div class="article-container">
+              <article>
+                <i class="fa-solid fa-check"></i>
+                <div>
+                  <h3> MICROSOFT SQL SERVER</h3>
+                </div>
+              </article>
+              <article>
+                <i class="fa-solid fa-check"></i>
+                <div>
+                  <h3>ADO.NET</h3>
+               </div>
+              </article>
+              <article>
+                <i class="fa-solid fa-check"></i>
+                <div>
+                  <h3>LINQ</h3>
+                </div>
+              </article>
+           </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">View My Recent</p>
+      <h1 class="title">Services</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="Images/13.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Web Development</h2>
+            <div class="btn-container">
+              
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="Images/12.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Full Stack Development</h2>
+            <div class="btn-container">
+            
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="Images/i1.jpg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Dot Net Development</h2>
+            <div class="btn-container">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me At</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <a href=""><i class="fa-solid fa-envelope" style="color: #000000;"></i></a>
+          <p ><a href="mailto:panchalpavan2313@gmail.com" style="color: #000000;">panchalpavan2313@gmail.com </a></p>
+        </div>
+        <div class="contact-info-container">
+         <a href=""><i class="fa-brands fa-linkedin" style="color: #000000;"></i></a>
+          <p><a href="https://www.linkedin.com" style="color: #000000;">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Expertise</a></li>
+            <li><a href="#projects">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p style="font-weight: 900;">Copyright &#169; 2024 Pawan Panchal.<br> All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
