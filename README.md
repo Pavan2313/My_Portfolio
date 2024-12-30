@@ -1,3 +1,3 @@
 # My_Portfolio
 
-This is My Portfolio wihich Indicates My Education, Projects, About Myself.
+This is my portfolio which indicates my Education, Projects and About myself.
